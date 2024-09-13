@@ -5,18 +5,18 @@
 1. Main page
 2. Tour-list pages
 3. Destination page
-4.  page
+4. Single page
 5. Blog page
 6. About page
 7. Gallery page
 -------------------------------------------------------------------*/
-@import "https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_assets/css/slider.css";
-@import "https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_assets/css/slick.css";
-@import "https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_assets/css/slick-theme.css";
-@import "https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_assets/css/jquery-ui.min.css";
-@import "https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_assets/css/jquery.arcticmodal.css";
-@import "https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_assets/css/lightgallery.min.css";
-@import "https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_assets/css/lg-transitions.min.css";
+@import "slider.css";
+@import "slick.css";
+@import "slick-theme.css";
+@import "jquery-ui.min.css";
+@import "jquery.arcticmodal.css";
+@import "lightgallery.min.css";
+@import "lg-transitions.min.css";
 /*------------------------------------------------------------------
 1. Main page
 -------------------------------------------------------------------*/
@@ -226,7 +226,7 @@ adress {
   display: block;
   float: left;
   width: 100%;
-  font-size: 1em;
+  font-size: inherit;
   font-weight: normal;
   margin: 0;
   padding: 0;
@@ -351,7 +351,7 @@ body {
 .homepage_slider .most_popular:before {
   width: 30px;
   height: 40px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/geo.svg) center center no-repeat;
+  background: url(../img/geo.svg) center center no-repeat;
   background-size: contain;
   position: absolute;
   top: 0;
@@ -453,7 +453,7 @@ body {
   position: relative;
 }
 .homepage_slider .slide__controls .arrow:before {
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/left-arrow.svg) center center no-repeat;
+  background: url(../img/left-arrow.svg) center center no-repeat;
   background-size: contain;
   width: 20px;
   height: 14px;
@@ -504,7 +504,7 @@ body {
   border: 2px solid rgba(255, 255, 255, 0.36);
   border-radius: 50%;
   display: block;
-  
+  float: left;
   position: relative;
   width: 62px;
   height: 62px;
@@ -512,7 +512,7 @@ body {
   float: none;
 }
 .homepage_slider .categories .other_items .icon .arrow:before {
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/left-arrow.svg) center center no-repeat;
+  background: url(../img/left-arrow.svg) center center no-repeat;
   background-size: contain;
   width: 20px;
   height: 14px;
@@ -624,7 +624,7 @@ body {
   background: none;
 }
 .search_form .submit:before {
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/search-icon.svg) center center no-repeat;
+  background: url(../img/search-icon.svg) center center no-repeat;
   background-size: contain;
   position: absolute;
   top: 50%;
@@ -644,7 +644,7 @@ body {
   background: none;
 }
 .search_form .close:before {
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/close.svg) center center no-repeat;
+  background: url(../img/close.svg) center center no-repeat;
   background-size: contain;
   position: absolute;
   top: 50%;
@@ -705,7 +705,6 @@ body {
 .header__top .tel {
   width: auto;
   margin-right: 62px;
-  float: right;
 }
 .header__top .tel a {
   display: block;
@@ -756,28 +755,28 @@ body {
   left: 50%;
 }
 .header__top .socials .a.facebook:before {
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/facebook-logo.svg);
+  background-image: url(../img/facebook-logo.svg);
   width: 10px;
   height: 18px;
   margin-top: -9px;
   margin-left: -5px;
 }
 .header__top .socials .a.instagram:before {
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/instagram.svg);
+  background-image: url(../img/instagram.svg);
   width: 18px;
   height: 18px;
   margin-top: -9px;
   margin-left: -9px;
 }
 .header__top .socials .a.pinterest:before {
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/pinterest.svg);
+  background-image: url(../img/pinterest.svg);
   width: 14px;
   height: 18px;
   margin-top: -9px;
   margin-left: -7px;
 }
 .header__top .socials .a.twitter:before {
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/twitter.svg);
+  background-image: url(../img/twitter.svg);
   width: 18px;
   height: 16px;
   margin-top: -8px;
@@ -860,7 +859,7 @@ body {
   position: relative;
 }
 .header__bottom .menu .scroll_wrap > ul > li .dropdown-menu > ul > li.dropdown_li > a:before {
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/arrow-3.svg) center center no-repeat;
+  background: url(../img/arrow-3.svg) center center no-repeat;
   background-size: contain;
   position: absolute;
   content: '';
@@ -903,7 +902,7 @@ body {
 .header__bottom .search_link:before {
   width: 20px;
   height: 20px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/search-icon.svg) center right no-repeat;
+  background: url(../img/search-icon.svg) center right no-repeat;
   background-size: contain;
   position: absolute;
   content: '';
@@ -1000,7 +999,7 @@ body {
   transition: all .2s linear;
 }
 .most_popular__section .top_part_right .arrow:before {
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/left-arrow.svg) center center no-repeat;
+  background: url(../img/left-arrow.svg) center center no-repeat;
   background-size: contain;
   width: 20px;
   height: 14px;
@@ -1110,7 +1109,7 @@ body {
 .most_popular__section .slider_item__content .rating .stars .star:before {
   width: 14px;
   height: 14px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/star.svg) center center no-repeat;
+  background: url(../img/star.svg) center center no-repeat;
   background-size: contain;
   content: '';
   position: absolute;
@@ -1120,7 +1119,7 @@ body {
 .most_popular__section .slider_item__content .rating .stars .star:after {
   width: 14px;
   height: 14px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/star-active.svg) center center no-repeat;
+  background: url(../img/star-active.svg) center center no-repeat;
   background-size: contain;
   content: '';
   position: absolute;
@@ -1162,7 +1161,7 @@ body {
 .most_popular__section .slider_item__content .days:before {
   width: 23px;
   height: 23px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/time.svg) center left no-repeat;
+  background: url(../img/time.svg) center left no-repeat;
   background-size: contain;
   position: absolute;
   left: 0;
@@ -1280,7 +1279,7 @@ body {
 .search_tour .search_tour_form .fields__block .fields .field .field_wrap.keywords:before {
   width: 18px;
   height: 18px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/search-black.svg) center center no-repeat;
+  background: url(../img/search-black.svg) center center no-repeat;
   background-size: contain;
   right: 18px;
   top: 50%;
@@ -1347,7 +1346,7 @@ body {
 .search_tour .search_tour_form .fields__block .fields .field .field_wrap.calendar_field:before {
   width: 20px;
   height: 20px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/calendar.svg) center center no-repeat;
+  background: url(../img/calendar.svg) center center no-repeat;
   background-size: contain;
   position: absolute;
   content: '';
@@ -1384,7 +1383,7 @@ body {
 .search_tour .search_tour_form .fields__block .submit:before {
   width: 26px;
   height: 26px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/search-icon.svg) center center no-repeat;
+  background: url(../img/search-icon.svg) center center no-repeat;
   background-size: contain;
   position: absolute;
   top: 50%;
@@ -1464,7 +1463,7 @@ body {
 .ui-datepicker .ui-datepicker-prev:before {
   width: 8px;
   height: 12px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/calendar-arrow.svg) center center no-repeat;
+  background: url(../img/calendar-arrow.svg) center center no-repeat;
   background-size: contain;
   position: absolute;
   top: 50%;
@@ -1490,7 +1489,7 @@ body {
 .ui-datepicker .ui-datepicker-next:before {
   width: 8px;
   height: 12px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/calendar-arrow.svg) center center no-repeat;
+  background: url(../img/calendar-arrow.svg) center center no-repeat;
   background-size: contain;
   transform: rotate(180deg);
   position: absolute;
@@ -1524,16 +1523,6 @@ body {
     width: 32px;
     height: 30px;
     line-height: 30px;
-  }
-  /* .header__top .tel  {
-    float: right;
-    
-  }
-  .header__top .email  {
-    float:right;
-  } */
-  .header__bottom{
-    top:30px;
   }
 }
 .popular_destination__section {
@@ -1602,7 +1591,7 @@ body {
   transition: all .2s linear;
 }
 .popular_destination__section .top_part_right .arrow:before {
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/left-arrow-black.svg) center center no-repeat;
+  background: url(../img/left-arrow-black.svg) center center no-repeat;
   background-size: contain;
   width: 20px;
   height: 14px;
@@ -1740,11 +1729,11 @@ body {
   max-width: 595px;
 }
 .top_destination .description .right {
-  max-width: 55px;
+  max-width: 595px;
   float: right;
 }
 .top_destination .description .text {
-  font-size: 0.75em;
+  font-size: 18px;
   color: #818693;
   line-height: 1.45;
 }
@@ -2081,28 +2070,28 @@ body {
   left: 50%;
 }
 .footer_top .socials .a.facebook:before {
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/facebook-logo.svg);
+  background-image: url(../img/facebook-logo.svg);
   width: 10px;
   height: 18px;
   margin-top: -9px;
   margin-left: -5px;
 }
 .footer_top .socials .a.instagram:before {
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/instagram.svg);
+  background-image: url(../img/instagram.svg);
   width: 18px;
   height: 18px;
   margin-top: -9px;
   margin-left: -9px;
 }
 .footer_top .socials .a.pinterest:before {
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/pinterest.svg);
+  background-image: url(../img/pinterest.svg);
   width: 14px;
   height: 18px;
   margin-top: -9px;
   margin-left: -7px;
 }
 .footer_top .socials .a.twitter:before {
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/twitter.svg);
+  background-image: url(../img/twitter.svg);
   width: 18px;
   height: 16px;
   margin-top: -8px;
@@ -2213,28 +2202,28 @@ body {
   margin-right: 12px;
 }
 .footer_center .mobile_socials .a.facebook:before {
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/facebook-logo.svg);
+  background-image: url(../img/facebook-logo.svg);
   width: 16px;
   height: 30px;
   margin-top: -15px;
   margin-left: -8px;
 }
 .footer_center .mobile_socials .a.instagram:before {
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/instagram.svg);
+  background-image: url(../img/instagram.svg);
   width: 28px;
   height: 28px;
   margin-top: -14px;
   margin-left: -14px;
 }
 .footer_center .mobile_socials .a.pinterest:before {
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/pinterest.svg);
+  background-image: url(../img/pinterest.svg);
   width: 24px;
   height: 30px;
   margin-top: -15px;
   margin-left: -12px;
 }
 .footer_center .mobile_socials .a.twitter:before {
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/twitter.svg);
+  background-image: url(../img/twitter.svg);
   width: 30px;
   height: 24px;
   margin-top: -12px;
@@ -2603,7 +2592,7 @@ body {
   .header__bottom .menu .close {
     width: 25px;
     height: 25px;
-    background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/menu-close.svg) center center no-repeat;
+    background: url(../img/menu-close.svg) center center no-repeat;
     background-size: 18px 18px;
     position: fixed;
     z-index: 2;
@@ -2671,28 +2660,28 @@ body {
     transition: all .2s linear;
   }
   .header__bottom .menu .scroll .bottom .socials .links a.fb:before {
-    background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/facebook-logo.svg);
+    background-image: url(../img/facebook-logo.svg);
     width: 16px;
     height: 30px;
     margin-top: -15px;
     margin-left: -8px;
   }
   .header__bottom .menu .scroll .bottom .socials .links a.instagram:before {
-    background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/instagram.svg);
+    background-image: url(../img/instagram.svg);
     width: 28px;
     height: 28px;
     margin-top: -14px;
     margin-left: -14px;
   }
   .header__bottom .menu .scroll .bottom .socials .links a.pinterest:before {
-    background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/pinterest.svg);
+    background-image: url(../img/pinterest.svg);
     width: 24px;
     height: 30px;
     margin-top: -15px;
     margin-left: -12px;
   }
   .header__bottom .menu .scroll .bottom .socials .links a.twitter:before {
-    background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/twitter.svg);
+    background-image: url(../img/twitter.svg);
     width: 30px;
     height: 24px;
     margin-top: -12px;
@@ -2895,8 +2884,7 @@ body {
     width: 100%;
   }
   .header__top {
-    padding-top: 25px;
-    
+    padding-top: 20px;
   }
   .homepage_slider .categories .items {
     padding-bottom: 5px;
@@ -3286,7 +3274,7 @@ body {
     display: none;
   }
   .header__top .email {
-   float: right;
+    float: right;
   }
   .header__top {
     padding-bottom: 0;
@@ -3671,18 +3659,6 @@ body {
   .footer_top .footer_head_mobile .logo {
     font-size: 37px;
   }
-  .header__top .email {
-    float: left;
-    padding-left: 70px;
-  }
-  .header__top .tel {
-    float: left;
-    padding-left: 110px;
-  }
-  .image-cover{
-    height:250px;
-  }
-  
 }
 @media screen and (max-width: 358px) {
   .homepage_slider .most_popular {
@@ -3714,14 +3690,6 @@ body {
   .slide__text-desc {
     font-size: 14px;
   }
-  .header__top .email {
-    float: left;
-    padding-left: 40px;
-  }
-  .header__top .tel {
-    float: left;
-    padding-left: 90px;
-  }
 }
 @media screen and (orientation: landscape) {
   .homepage_slider {
@@ -3746,7 +3714,7 @@ body {
     min-height: 685px;
   }
 }
-@media screen and (orientation: portrait) and (max-width: 1050px) and (-webkit-min-device-pixel-ratio: 0) {
+@media screen (orientation: portrait) and (max-width: 1050px) and (-webkit-min-device-pixel-ratio: 0) {
   .slider-container {
     height: 85vh;
   }
@@ -3901,8 +3869,7 @@ body {
   right: 0;
 }
 .page_content {
- 
-  background: black;
+  background: #000;
   padding-bottom: 85px;
 }
 .page_content.left-sidebar .main {
@@ -4025,7 +3992,7 @@ body {
 .page_content .main .pagination ul li.prev a:before {
   width: 20px;
   height: 14px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/pag-arrow.svg) center center no-repeat;
+  background: url(../img/pag-arrow.svg) center center no-repeat;
   background-size: contain;
   position: absolute;
   top: 50%;
@@ -4039,7 +4006,7 @@ body {
 .page_content .main .pagination ul li.prev a:after {
   width: 20px;
   height: 14px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/pag-arrow-hover.svg) center center no-repeat;
+  background: url(../img/pag-arrow-hover.svg) center center no-repeat;
   background-size: contain;
   position: absolute;
   top: 50%;
@@ -4065,7 +4032,7 @@ body {
 .page_content .main .pagination ul li.next a:before {
   width: 20px;
   height: 14px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/pag-arrow.svg) center center no-repeat;
+  background: url(../img/pag-arrow.svg) center center no-repeat;
   background-size: contain;
   position: absolute;
   top: 50%;
@@ -4078,7 +4045,7 @@ body {
 .page_content .main .pagination ul li.next a:after {
   width: 20px;
   height: 14px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/pag-arrow-hover.svg) center center no-repeat;
+  background: url(../img/pag-arrow-hover.svg) center center no-repeat;
   background-size: contain;
   position: absolute;
   top: 50%;
@@ -4151,7 +4118,7 @@ body {
   height: 24px;
   position: absolute;
   content: '';
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/time-4.svg) center center no-repeat;
+  background: url(../img/time-4.svg) center center no-repeat;
   background-size: contain;
   left: 0;
   top: 0;
@@ -4168,7 +4135,7 @@ body {
   width: 22px;
   height: 24px;
   position: absolute;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/date.svg) center center no-repeat;
+  background: url(../img/date.svg) center center no-repeat;
   background-size: contain;
   content: '';
   left: 0;
@@ -4249,7 +4216,7 @@ body {
 .page_content .main .items .item_right .rating .stars .star:before {
   width: 14px;
   height: 14px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/star-dark.svg) center center no-repeat;
+  background: url(../img/star-dark.svg) center center no-repeat;
   background-size: contain;
   content: '';
   position: absolute;
@@ -4259,7 +4226,7 @@ body {
 .page_content .main .items .item_right .rating .stars .star:after {
   width: 14px;
   height: 14px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/star-active.svg) center center no-repeat;
+  background: url(../img/star-active.svg) center center no-repeat;
   background-size: contain;
   content: '';
   position: absolute;
@@ -4412,7 +4379,7 @@ body {
 .page_content .sidebar .latest_tours ._item .right .time:before {
   width: 20px;
   height: 20px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/time-2.svg) center center no-repeat;
+  background: url(../img/time-2.svg) center center no-repeat;
   background-size: cover;
   position: absolute;
   content: '';
@@ -4537,7 +4504,7 @@ body {
 .page_content .sidebar .recent_articles .list ._item .date:before {
   width: 18px;
   height: 18px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/time-3.svg) center center no-repeat;
+  background: url(../img/time-3.svg) center center no-repeat;
   background-size: contain;
   position: absolute;
   content: '';
@@ -4552,7 +4519,7 @@ body {
   color: #fff;
   position: absolute;
   top: 150px;
-  padding: 14px;
+  padding: 14px 0;
   z-index: 1;
 }
 .breadcrumbs .current {
@@ -4788,7 +4755,6 @@ body {
     padding-left: 16px;
     padding-right: 16px;
   }
-  
   .page_content.two-columns .main .pagination {
     margin-top: 20px;
   }
@@ -4982,7 +4948,6 @@ body {
   .destinations-page .main {
     margin-top: 28px;
   }
-  
 }
 /*------------------------------------------------------------------
 4. Single page
@@ -5055,13 +5020,7 @@ body {
   font-size: 40px;
   color: #fff;
   font-weight: 900;
-  margin-bottom: 25px;
-}
-.single-page .main .title2 {
-  font-size:30px;
-  color: #fff;
-  font-weight:700;
-  margin-bottom:30px;
+  margin-bottom: 30px;
 }
 .single-page .main .rating {
   margin-bottom: 7px;
@@ -5089,38 +5048,38 @@ body {
 .single-page .main .short_description li.time:before {
   width: 25px;
   height: 25px;
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/time.svg);
+  background-image: url(../img/time.svg);
   margin-top: -12px;
 }
 .single-page .main .short_description li.date:before {
   width: 22px;
   height: 24px;
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/date-2.svg);
+  background-image: url(../img/date-2.svg);
   margin-top: -12px;
 }
 .single-page .main .short_description li.takeoff:before {
   width: 26px;
   height: 18px;
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/takeoff.svg);
+  background-image: url(../img/takeoff.svg);
   margin-top: -9px;
 }
 .single-page .main .short_description li.landing:before {
   width: 28px;
   height: 25px;
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/landing.svg);
+  background-image: url(../img/landing.svg);
   margin-top: -12px;
 }
 .single-page .main .short_description li.age:before {
   width: 14px;
   height: 18px;
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/age.svg);
+  background-image: url(../img/age.svg);
   margin-top: -9px;
 }
 .single-page .main .short_description li.people:before {
   width: 28px;
   height: 24px;
   margin-top: -12px;
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/people.svg);
+  background-image: url(../img/people.svg);
 }
 .single-page .main .geo {
   color: rgba(255, 255, 255, 0.8);
@@ -5132,7 +5091,7 @@ body {
 .single-page .main .geo:before {
   width: 14px;
   height: 18px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/geo-white.svg) center center no-repeat;
+  background: url(../img/geo-white.svg) center center no-repeat;
   background-size: contain;
   position: absolute;
   content: '';
@@ -5175,7 +5134,7 @@ body {
   overflow: hidden;
   position: relative;
 }
-.single-page .map-iframe video {
+.single-page .map-iframe iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -5229,7 +5188,7 @@ body {
 .single-page .content-body .list-block ul.true li:before {
   width: 14px;
   height: 10px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/li-true.svg) center center no-repeat;
+  background: url(../img/li-true.svg) center center no-repeat;
   background-size: contain;
   position: absolute;
   left: 0;
@@ -5243,7 +5202,7 @@ body {
 .single-page .content-body .list-block ul.false li:before {
   width: 11px;
   height: 11px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/false-li.svg) center center no-repeat;
+  background: url(../img/false-li.svg) center center no-repeat;
   background-size: contain;
   position: absolute;
   left: 0;
@@ -5270,7 +5229,7 @@ body {
 .single-page .content-body .ul_list li:before {
   width: 16px;
   height: 16px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/plus.svg) center center no-repeat;
+  background: url(../img/plus.svg) center center no-repeat;
   background-size: contain;
   position: absolute;
   left: 0;
@@ -5358,7 +5317,7 @@ body {
 .single-page .content-body .photogallery .galleryslider .arrows .arrow:before {
   width: 20px;
   height: 14px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/slide-arrow.svg) center center no-repeat;
+  background: url(../img/slide-arrow.svg) center center no-repeat;
   background-size: contain;
   content: '';
   position: absolute;
@@ -5401,7 +5360,7 @@ body {
 .single-page .content-body .photogallery .galleryslider .slider-top .item-slide:after {
   width: 46px;
   height: 46px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/zoom.svg) center center no-repeat;
+  background: url(../img/zoom.svg) center center no-repeat;
   background-size: contain;
   position: absolute;
   content: '';
@@ -5489,54 +5448,6 @@ body {
   padding: 0;
   background: #fff;
 }
-
-
-
- .slider_item__content{
-
-  opacity: 1;
-  display: block;
-  width:100%;
-  height:auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-
-}
-#slider__description{
-  display: none;
-}
-#slider__description_2{
-  display: none;
-}
-.facilities_name{
-  font-size: 25px;
-  padding-right: 295px;
-}
-.facilities_link {
-  height: 62px;
-  background: #ff7f00;
-  border-radius: 31px;
-  
-  width:120px;
-  
-  text-align: center;
-  font-size:25px;
-  font-weight: 300;
-  
-  padding: 10px 48px;
-  color: #fff;
-}
-.facilities_link:hover {
-  background: #d46a00;
-}
-
-
-.most_popular__section .slider_item .slider_item__content:hover::after {
-  content: attr(data-hover);
-  font-size: 20px;
-  color: white;
-}
-
 .single-page .related_tours .slider_item {
   width: 49%;
   margin-right: 2%;
@@ -5544,10 +5455,6 @@ body {
 }
 .single-page .related_tours .slider_item:last-child {
   margin-right: 0;
-}
-
-.single-page .related_tours .slider_item .slider_item__content {
-  padding: 30px;
 }
 .single-page .related_tours .slider_item .slider_item__content {
   padding: 30px;
@@ -5583,7 +5490,7 @@ body {
 .single-page .reviews_comments_top .sorting .select_wrap:before {
   width: 9px;
   height: 6px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/select-arrow.svg) center center no-repeat;
+  background: url(../img/select-arrow.svg) center center no-repeat;
   background-size: contain;
   position: absolute;
   content: '';
@@ -5625,7 +5532,7 @@ body {
 .single-page .reviews_comments_top .stars .star:before {
   width: 22px;
   height: 22px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/star-dark.svg) center center no-repeat;
+  background: url(../img/star-dark.svg) center center no-repeat;
   background-size: contain;
   content: '';
   position: absolute;
@@ -5635,7 +5542,7 @@ body {
 .single-page .reviews_comments_top .stars .star:after {
   width: 22px;
   height: 22px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/star-active.svg) center center no-repeat;
+  background: url(../img/star-active.svg) center center no-repeat;
   background-size: contain;
   content: '';
   position: absolute;
@@ -5710,7 +5617,7 @@ body {
 .single-page .reviews_comments_list .comment_item .rating .stars .star:before {
   width: 14px;
   height: 14px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/star-dark.svg) center center no-repeat;
+  background: url(../img/star-dark.svg) center center no-repeat;
   background-size: contain;
   content: '';
   position: absolute;
@@ -5721,7 +5628,7 @@ body {
 .single-page .reviews_comments_list .comment_item .rating .stars .star:after {
   width: 14px;
   height: 14px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/star-active.svg) center center no-repeat;
+  background: url(../img/star-active.svg) center center no-repeat;
   background-size: contain;
   content: '';
   position: absolute;
@@ -5806,7 +5713,7 @@ body {
 .single-page .single-sidebar .tour--info .top .flex-bottom .time:before {
   width: 22px;
   height: 22px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/time.svg) center center no-repeat;
+  background: url(../img/time.svg) center center no-repeat;
   background-size: contain;
   position: absolute;
   content: '';
@@ -5827,7 +5734,7 @@ body {
 .single-page .single-sidebar .tour--info .bottom .date:before {
   width: 22px;
   height: 24px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/calendar.svg) center center no-repeat;
+  background: url(../img/calendar.svg) center center no-repeat;
   background-size: contain;
   content: '';
   position: absolute;
@@ -5888,25 +5795,25 @@ body {
 .single-page .single-sidebar .why-book ul li.li-1:before {
   width: 13px;
   height: 24px;
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/dollar.svg);
+  background-image: url(../img/dollar.svg);
   top: 16px;
 }
 .single-page .single-sidebar .why-book ul li.li-2:before {
   width: 19px;
   height: 18px;
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/call.svg);
+  background-image: url(../img/call.svg);
   top: 20px;
 }
 .single-page .single-sidebar .why-book ul li.li-3:before {
   width: 22px;
   height: 20px;
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/star2.svg);
+  background-image: url(../img/star2.svg);
   top: 18px;
 }
 .single-page .single-sidebar .why-book ul li.li-4:before {
   width: 20px;
   height: 20px;
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/lifebuoy.svg);
+  background-image: url(../img/lifebuoy.svg);
   top: 20px;
 }
 .single-page .single-sidebar .latest_tours {
@@ -6006,7 +5913,7 @@ body {
 .single-page .single-sidebar .latest_tours ._item .right .time:before {
   width: 20px;
   height: 20px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/time-2.svg) center center no-repeat;
+  background: url(../img/time-2.svg) center center no-repeat;
   background-size: cover;
   position: absolute;
   content: '';
@@ -6049,20 +5956,16 @@ body {
   display: block;
   float: left;
 }
- .single-tour-slider .single-tour-slide {
+.single-tour-slider .single-tour-slide {
   width: 403px;
   height: 370px;
   border-radius: 12px;
   overflow: hidden;
   margin-right: 48px;
 }
-
-
- .single-tour-slider .slick-list {
+.single-tour-slider .slick-list {
   overflow: visible;
 }
-
-
 .add_comment {
   margin-top: 50px;
   border-bottom: 1px solid #E6E6E6;
@@ -6095,7 +5998,7 @@ body {
 .add_comment .rating .stars .star:before {
   width: 22px;
   height: 22px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/star-dark.svg) center center no-repeat;
+  background: url(../img/star-dark.svg) center center no-repeat;
   background-size: contain;
   content: '';
   position: absolute;
@@ -6105,7 +6008,7 @@ body {
 .add_comment .rating .stars .star:after {
   width: 22px;
   height: 22px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/star-active.svg) center center no-repeat;
+  background: url(../img/star-active.svg) center center no-repeat;
   background-size: contain;
   content: '';
   position: absolute;
@@ -6167,7 +6070,7 @@ body {
 .add_comment .field.file-field .close {
   width: 16px;
   height: 60px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/close-black.svg) center center no-repeat;
+  background: url(../img/close-black.svg) center center no-repeat;
   background-size: contain;
   margin-left: 12px;
 }
@@ -6180,7 +6083,7 @@ body {
 .add_comment .field .input_wrap.calendar-field:before {
   width: 20px;
   height: 20px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/calendar.svg) center center no-repeat;
+  background: url(../img/calendar.svg) center center no-repeat;
   background-size: contain;
   position: absolute;
   content: '';
@@ -6298,7 +6201,7 @@ body {
 .rating .stars .star:before {
   width: 18px;
   height: 17px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/star.svg) center center no-repeat;
+  background: url(../img/star.svg) center center no-repeat;
   background-size: contain;
   content: '';
   position: absolute;
@@ -6308,7 +6211,7 @@ body {
 .rating .stars .star:after {
   width: 18px;
   height: 17px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/star-active.svg) center center no-repeat;
+  background: url(../img/star-active.svg) center center no-repeat;
   background-size: contain;
   content: '';
   position: absolute;
@@ -6368,7 +6271,7 @@ body {
 .modal_close {
   width: 24px;
   height: 24px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/close.svg) center center no-repeat;
+  background: url(../img/close.svg) center center no-repeat;
   background-size: contain;
   position: absolute;
   top: 0;
@@ -6397,7 +6300,7 @@ body {
 .field .input_wrap.calendar-field:before {
   width: 20px;
   height: 20px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/calendar.svg) center center no-repeat;
+  background: url(../img/calendar.svg) center center no-repeat;
   background-size: contain;
   position: absolute;
   content: '';
@@ -6521,7 +6424,7 @@ body {
   color: #fff;
 }
 .dark .add_comment .field.file-field .close {
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/close.svg);
+  background-image: url(../img/close.svg);
 }
 .dark .reviews_comments_top .sorting .select_wrap select,
 .dark .reviews_comments_top .sorting p,
@@ -6534,13 +6437,13 @@ body {
   color: #fff;
 }
 .dark .reviews_comments_top .sorting .select_wrap:before {
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/select-arrow-white.svg);
+  background-image: url(../img/select-arrow-white.svg);
 }
 .dark .program .day-item .day-head:before {
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/day-plus-white.svg);
+  background-image: url(../img/day-plus-white.svg);
 }
 .dark .program .day-item .day-head:after {
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/minus-white.svg);
+  background-image: url(../img/minus-white.svg);
   border-color: #fff;
 }
 .program {
@@ -6578,7 +6481,7 @@ body {
   right: 0;
   top: 50%;
   margin-top: -22px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/day-plus.svg) center center no-repeat;
+  background: url(../img/day-plus.svg) center center no-repeat;
   background-size: 12px 12px;
   transition: all .2s linear;
 }
@@ -6592,7 +6495,7 @@ body {
   right: 0;
   top: 50%;
   margin-top: -22px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/minus.svg) center center no-repeat;
+  background: url(../img/minus.svg) center center no-repeat;
   background-size: 12px 2px;
   opacity: 0;
   transition: all .2s linear;
@@ -6621,12 +6524,12 @@ body {
 .program .day-num {
   font-size: 24px;
   font-weight: 900;
-  width: 250px;
+  width: 180px;
   margin-right: 25px;
   align-self: center;
 }
 .program .day-title {
-  font-size: 21px;
+  font-size: 20px;
   font-weight: 900;
   align-self: center;
 }
@@ -6644,7 +6547,7 @@ body {
   clear: both;
 }
 .included .included-item:before {
-  background: #176eff url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/check-white.svg) center center no-repeat;
+  background: #176eff url(../img/check-white.svg) center center no-repeat;
   box-sizing: 14px 10px;
   width: 44px;
   height: 44px;
@@ -6662,7 +6565,6 @@ body {
 .included .included-item .included_text {
   color: #818693;
 }
-
 @media screen and (min-width: 1800px) {
   .single-page.tour-single {
     padding-top: 550px;
@@ -6719,7 +6621,6 @@ body {
     height: 340px;
     margin-right: 45px;
   }
-  
   .single-page .single-right {
     width: 370px;
   }
@@ -6791,12 +6692,10 @@ body {
   .dark .single-sidebar {
     background: #000;
   }
-  
 }
 @media screen and (max-width: 1076px) {
   .single-page .content-body .wrap_float {
     max-width: 100%;
-    
   }
   .single-page .content-body .photogallery .galleryslider .slider-top .item-slide {
     width: 100%;
@@ -6866,20 +6765,17 @@ body {
   }
   .single-page .content-body .wrap_float {
     flex-direction: column;
-   
   }
   .single-page .content-body .single-left {
     order: 1;
     margin-top: 30px;
   }
   .single-page .single-left {
-    margin-top: 30px;
     margin-bottom: 38px;
   }
   .single-tour-slider .slick-list {
-    overflow:auto;
+    overflow: auto;
     padding-left: 4vw;
-    
   }
   .single-tour-slider .slick-track {
     width: auto !important;
@@ -6939,9 +6835,6 @@ body {
   .single-page .main .title {
     font-size: 34px;
   }
-  .single-page .main .title2 {
-    font-size: 24px;
-  }
   .single-page .main .geo {
     font-size: 18px;
   }
@@ -6966,7 +6859,6 @@ body {
   .single-page .main .section-top .controls .btn {
     max-width: 280px;
     width: 100%;
-    
   }
 }
 @media screen and (max-width: 760px) {
@@ -7146,7 +7038,7 @@ body {
     flex-direction: column;
     height: auto;
     padding-top: 14px;
-    padding-bottom: 25px;
+    padding-bottom: 14px;
     padding-left: 80px;
   }
   .program .day-num {
@@ -7168,7 +7060,6 @@ body {
     width: 50px;
     height: 50px;
     margin-top: -25px;
-    padding-bottom: 2px;
   }
   .program .day-item .day-head {
     padding-left: 63px;
@@ -7178,7 +7069,6 @@ body {
     width: 36px;
     height: 36px;
     margin-top: -18px;
-    
   }
   .program .day-title {
     font-weight: 400;
@@ -7187,36 +7077,16 @@ body {
     font-size: 16px;
   }
 }
-
 @media screen and (max-width: 430px) {
-  #slider__description{
-    display: contents;
-  }
-  #slider__description_2{
-    display: contents;
-  }
-  .breadcrumbs {
-    top:180px;
-   
-  }
-
   .single-page .main .title {
     font-size: 30px;
     margin-bottom: 15px;
   }
-  .single-page .main .title2{
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
-  
   .single-page .main .short_description li {
     padding-left: 43px;
   }
   .single-page {
     padding-top: 190px;
-  }
-  .single-page .main .section-top .controls .btn{
-    display: none;
   }
   .single-page .main .short_description li {
     font-size: 16px;
@@ -7347,7 +7217,6 @@ body {
   .single-page .related_tours .slider_item .slider_item__content {
     padding: 20px;
   }
-  
   .single-page .content-body .table_wrap .table tbody tr:first-child td {
     border-top: 0;
   }
@@ -7404,24 +7273,6 @@ body {
   .included .included-item .included_title {
     font-size: 18px;
   }
-  .single-tour-slider .single-tour-slide {
-    padding-top: 5px;
-  }
-  .most_popular__section .slider_item .slider_item__content:hover::after {
-  content: attr(data-hover);
-  font-size: 20px;
-  color: white;
-  }
-  .facilities_name{
-    font-size: 23px;
-   
-    padding-right: 15px;
-  }
-  .facilities_link {
-    font-size: 23px;
-    
-  }
-  
 }
 /*------------------------------------------------------------------
 5. Blog page
@@ -7650,7 +7501,7 @@ body {
 .recent_photo .photos .item:after {
   width: 28px;
   height: 26px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/link.svg) center center no-repeat;
+  background: url(../img/link.svg) center center no-repeat;
   background-size: contain;
   position: absolute;
   content: '';
@@ -7711,7 +7562,7 @@ body {
   color: #fff;
 }
 .single-page.blog-single .single-sidebar .latest_tours ._item .right .time:before {
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/time.svg);
+  background-image: url(../img/time.svg);
 }
 .blog-single {
   padding-bottom: 0;
@@ -8070,7 +7921,7 @@ body {
   margin-bottom: 25px;
 }
 .about-page .description .text p {
-  font-size: 0.75em;
+  font-size: 16px;
   color: #fff;
 }
 .about-page .description .left {
@@ -8147,15 +7998,6 @@ body {
   font-size: 18px;
   font-style: italic;
 }
-
-.hotel_image {
-  float: left;
-  width:150px;
-  height: 250px;
-}
-img {
-  width:250px;
-}
 .slick-arrows {
   width: 144px;
 }
@@ -8172,7 +8014,7 @@ img {
 .slick-arrows .arrow:before {
   width: 20px;
   height: 14px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/slick-arrow.svg) center center no-repeat;
+  background: url(../img/slick-arrow.svg) center center no-repeat;
   background-size: contain;
   position: absolute;
   content: '';
@@ -8223,42 +8065,34 @@ img {
   flex-wrap: wrap;
 }
 .contacts-page .contacts-columns .column {
-  width: 21%;/*width is modified to 21% for 4 columns*/
+  width: 22%;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   position: relative;
   padding-bottom: 52px;
-  margin-right: 5%;/*changed to 5% as 4 columns are present*/
+  margin-right: 15%;
 }
 .contacts-page .contacts-columns .column:last-child {
   margin-right: 0;
 }
 .contacts-page .contacts-columns .column.tel ._title:before {
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/call-3.svg);
+  background-image: url(../img/call-3.svg);
   width: 32px;
   height: 30px;
   top: 50%;
   margin-top: -15px;
 }
 .contacts-page .contacts-columns .column.email ._title:before {
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/email-3.svg);
+  background-image: url(../img/email-3.svg);
   width: 32px;
   height: 26px;
   top: 50%;
   margin-top: -13px;
 }
-/*For registration page adding one more column*/
-.contacts-page .contacts-columns .column.whatsapp ._title:before {
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/whatsapp.png);/*added s3 image link*/
-  width: 32px;
-  height: 26px;
-  top: 50%;
-  margin-top: -13px;
-}/*end of extra column*/
 .contacts-page .contacts-columns .column.location ._title:before {
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/geo-3.svg);
+  background-image: url(../img/geo-3.svg);
   width: 24px;
   height: 32px;
   top: 50%;
@@ -8364,46 +8198,33 @@ img {
   transition: all .2s linear;
 }
 .contacts-page .socials .links a.fb:before {
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/facebook-logo.svg);
+  background-image: url(../img/facebook-logo.svg);
   width: 22px;
   height: 38px;
   margin-top: -19px;
   margin-left: -11px;
 }
 .contacts-page .socials .links a.instagram:before {
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/instagram.svg);
+  background-image: url(../img/instagram.svg);
   width: 34px;
   height: 34px;
   margin-top: -17px;
   margin-left: -17px;
 }
 .contacts-page .socials .links a.pinterest:before {
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/pinterest.svg);
+  background-image: url(../img/pinterest.svg);
   width: 30px;
   height: 36px;
   margin-top: -18px;
   margin-left: -15px;
 }
 .contacts-page .socials .links a.twitter:before {
-  background-image: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/twitter.svg);
+  background-image: url(../img/twitter.svg);
   width: 38px;
   height: 30px;
   margin-top: -15px;
   margin-left: -19px;
 }
-/*Adding responsive iframe for registration page*/
-@media screen and (max-width: 999px) {
-  .registeration iframe {
-    width: 100%; 
-  }
-}
-@media screen and (min-width: 1000px){
-  .registeration iframe{
-    width: 50%
-  }
-  
-}/* end of modified code*/
-
 @media screen and (max-width: 1600px) {
   .about-page {
     padding-top: 200px;
@@ -8623,7 +8444,9 @@ img {
   .statistic {
     margin-bottom: 42px;
   }
- 
+  .about-page .description {
+    margin-top: 36px;
+  }
 }
 @media screen and (max-width: 430px) {
   .about-page {
@@ -8631,10 +8454,7 @@ img {
   }
   .contacts-page .mab-block {
     height: 370px;
-    
   }
-  
-  
 }
 @media screen and (max-width: 358px) {
   .contacts-page .socials .links a {
@@ -8682,7 +8502,7 @@ img {
 .gallery_page .item:after {
   width: 44px;
   height: 44px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/zoom.svg) center center no-repeat;
+  background: url(../img/zoom.svg) center center no-repeat;
   background-size: contain;
   position: absolute;
   content: '';
@@ -8765,7 +8585,7 @@ body.lg-on {
 .lg-toolbar .lg-icon {
   width: 40px;
   height: 40px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/close.svg) center center no-repeat;
+  background: url(../img/close.svg) center center no-repeat;
   background-size: 18px 18px;
   position: absolute;
   right: 12px;
@@ -8788,7 +8608,7 @@ body.lg-on {
 .lg-actions .lg-next:before {
   width: 14px;
   height: 20px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/lg-arrow.svg) center center no-repeat;
+  background: url(../img/lg-arrow.svg) center center no-repeat;
   background-size: contain;
   content: '';
   position: absolute;
@@ -8802,7 +8622,7 @@ body.lg-on {
 .lg-actions .lg-next:after {
   width: 14px;
   height: 20px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/lg-arrow-active.svg) center center no-repeat;
+  background: url(../img/lg-arrow-active.svg) center center no-repeat;
   background-size: contain;
   content: '';
   position: absolute;
@@ -8837,7 +8657,7 @@ body.lg-on {
 .lg-actions .lg-prev:before {
   width: 14px;
   height: 20px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/lg-arrow.svg) center center no-repeat;
+  background: url(../img/lg-arrow.svg) center center no-repeat;
   background-size: contain;
   content: '';
   position: absolute;
@@ -8851,7 +8671,7 @@ body.lg-on {
 .lg-actions .lg-prev:after {
   width: 14px;
   height: 20px;
-  background: url(https://indiacarz.s3.ap-south-1.amazonaws.com/indiacarz_images/lg-arrow-active.svg) center center no-repeat;
+  background: url(../img/lg-arrow-active.svg) center center no-repeat;
   background-size: contain;
   content: '';
   position: absolute;
@@ -8984,638 +8804,4 @@ body.lg-on {
   .gallery_page .item:nth-child(6n+5) .sq_parent {
     padding-bottom: 130%;
   }
-}
-
-
-
-
-
-
-
-/* banner */
-
-
- section.banner{
-	padding-left: 18px;
-  padding-right: 18px;
-    position: relative;
-}
-a.slider-btn{
-	padding: 15px 25px 15px;
-	display: inline-block;
-	background: #fe4e37;
-	color: #fff;
-	border-radius: 20px;
-	text-transform: uppercase;
-}
-a.slider-btn:hover{
-	background: #fff;
-	color: #fe4e37;
-}
-a.btn-wt{
-	background: #fff;
-	color: #333;
-}
-.slider{
-    height: 375px;
-    overflow: hidden;
-    position: relative;
-}
-.swiper-slide:after{
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: rgba(0,0,0,0.5);
-    top: 0;
-    left: 0;
-}
-  .swiper-container {
-      width: 100%;
-      height: 100%;
-    }
-    .swiper-slide {
-      text-align: center;
-      background: #fff;
-
-      /* Center slide text vertically */
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      -webkit-justify-content: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      align-items: center;
-      background-size: 100%;
-    background-position: top center;
-    }
-
-.slider .swiper-container-horizontal>.swiper-pagination-bullets, 
-.slider .swiper-pagination-custom, .slider .swiper-pagination-fraction{bottom: 40px;}
-
-.slider .swiper-pagination-bullet{
-    width: 10px;
-    height: 10px;
-    background: #fff;
-    opacity: 1;
-}
-.slider .swiper-pagination-bullet-active{
-    background: #fe4e37;
-}
-.slider .swiper-container-vertical>.swiper-pagination-bullets{
-    right: 50px;
-}
-.swiper-content{
-    z-index: 1;
-}
-.slider .swiper-content h3{
-    color: #fff;
-    margin: 16px 0 12px;
-    font-size: 15px;
-    position: relative;
-    padding: 0;
-    line-height: normal;
-    font-weight: normal;
-    display: inline-block;
-}
-.swiper-content h3:before{
-    position: absolute;
-    content: '';
-    height: 1px;
-    width: 50px;
-    background: #fff;
-    top: 10px;
-    left: -60px;
-}
-.swiper-content h3:after{
-    position: absolute;
-    content: '';
-    height: 1px;
-    width: 50px;
-    background: #fff;
-    top: 10px;
-    right: -60px;
-}
-.swiper-content h1{
-    color: #FFF;
-    font-size: 60px;
-    font-weight: 600;
-    line-height: normal;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-.swiper-content h1 span{
-    color: #fe4e37;
-}
-
-.swiper-content p{
-    color: #fff;
-    width: 70%;
-    margin: 0 auto;
-}
-.slider-text{
-    padding-top: 100px;
-}
-
-#vid{
-position: absolute;
-  top: 50%; 
-  left: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  min-width: 100%; 
-  min-height: 100%; 
-  width: auto; 
-  height: auto;
-  z-index: 0; 
-  overflow: display;
-}
-
-.video-banner-content{
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    top: 28%;
-    text-align: center;
-    width: 80%;
-}
-.video-banner video{
-    width: 100%;
-    display:flex;
-}
-.video-slider .overlay{
-    background: rgba(0,0,0,0.4);
-}
-
-section.banner.banner-style-1 .slider{
-  height: 600px;
-}
-
-section.banner.banner-style-1 .swiper-content {
-    z-index: 1;
-    width: 50%;
-    left: 5%;
-    position: absolute;
-    text-align: left;
-}
-
-@media(max-width: 1100px){
-  .swiper-slide{background-size: cover;}
-}
-
-@media(max-width: 991px){
-  .video-banner-content.swiper-content{width: 90%; top: 33%;}
-
-  section.banner.banner-style-1 .swiper-content{width: 80%; left: 0; right: 0; margin: 0 auto; text-align: center;}
-}
-
-@media(max-width: 767px){
-   .swiper-content h1{font-size: 48px;}
-
-  .slider .swiper-container-vertical>.swiper-pagination-bullets{display: none;}
-
-  .video-banner-content.swiper-content{top: 36%;}
-
-  section.banner.banner-style-1 .swiper-content{width: 90%;}
-  .slider {
-    height:250px;
-  }
-}
-
-@media(max-width: 639px){
-  .slider .video-banner {
-    height: 150px;
-    padding-left:0px;
-
-
-  }
-
-  .swiper-content h1{ font-size: 36px; }
-}
-
-@media(max-width: 567px){
-  a.slider-btn{margin-right: 0; margin-bottom: 15px;}
-
-  .swiper-content {top: 8%; position: relative;}
-
-  .video-banner-content.swiper-content{top: 26%; position: absolute;}
-
-  .swiper-content h3:before, .swiper-content h3:after{display: none;}
-  .slider {
-    height: 200px;;
-  }
-}
-
-@media(max-width: 479px){
-  section.banner.banner-style-1 .swiper-content{top: 30%;}
-
-  .swiper-content h1 {font-size: 28px;}
-
-  .slider {
-    height:200px;
-    padding: none;
-  }
-  .video-banner video {
-    width:120%;
-    height: 250px;
-  }
-}
-
-/* home-page */
-.page_head .wrap .wrap_float .slider-1{
-  position: relative;
-  background: #000116;
-  width: 100%;
-  min-height: 500px;
-  margin-top: 45px;
-  overflow: hidden;
-  border-radius: 10px;
-}
-
-.page_head .wrap .wrap_float .slider-1 .slides{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  /* clip-path: circle(0% at 0 50%); */
-  clip-path: polygon(0 0, 0 0, 0% 99%, 0 100%);
-  
-}
-.page_head .wrap .wrap_float .slider-1 .slides.active{
-  /* clip-path: circle(150% at 0 50%); */
-  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
-  transition: 2s;
-}
-.page_head .wrap .wrap_float .slider-1 .slides img{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-
-}
- .page_head .wrap .wrap_float .slider-1  .info{
-  position: absolute;
-  color: black;
-  width: 75%;
-  background: rgba(255,255,255,0.7);
-  margin-top: 320px;
-  margin-left: 50px;
-  padding:20px;
-  border-radius: 5px;
-  box-shadow: 0 5px 25px rgb(1 1 1 / 5%);  
-}
-.page_head .wrap .wrap_float .slider-1  .info h2{
-  font-size: 2em;
-  font-weight: 800;   
-}
-.page_head .wrap .wrap_float .slider-1 .slides .info p{
-  font-size: 1em;
-  font-weight: 400;   
-}
-.page_head .wrap .wrap_float .slider-1  .navigation{
-  height: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  opacity:0;
-  transition: opacity 0.5s ease;
-  
-}
-.page_head .wrap .wrap_float .slider-1:hover  .navigation{
-  opacity:1;
-  
-}
-.page_head .wrap .wrap_float .slider-1 .navigation-visibility{
-  z-index:999;
-  display: flex;
-  justify-content: center;
-
-}
-.page_head .wrap .wrap_float .slider-1 .navigation-visibility .slide-icon{
-  z-index:999;
-  background: rgba(255, 255, 255, 0.5);
-  width: 20px;
-  height: 10px;
-  transform:translateY(-50px);
-  margin: 0 6px;
-  border-radius:2px;
-  box-shadow: 0 5px 25px rgb(1 1 1 / 20%)
-}
-.page_head .wrap .wrap_float .slider-1  .prev-btn{
- z-index: 999;
- font-size: 2em;
- color: black;
- background: rgba(255, 255, 255, 0.8);
- padding: 10px;
- cursor: pointer;
- border-top-right-radius: 3px;
- border-bottom-right-radius: 3px;
-}
-.page_head .wrap .wrap_float .slider-1  .next-btn{
-  z-index: 999;
- font-size: 2em;
- color:#222;
- background: rgba(255, 255, 255, 0.8);
- padding: 10px;
- cursor: pointer;
- border-top-left-radius: 3px;
- border-bottom-left-radius: 3px;
-}
-
-.page_head .wrap .wrap_float .slider-1 .navigation-visibility .slide-icon.active{
-  background: blue;
-}
-@media(max-width: 900px)  {
-  .page_head .wrap .wrap_float .slider-1{
-     
-      width: 100%;
-      
-  }
-  
-  .page_head .wrap .wrap_float .slider-1 .slides .info{
-    position:relative;
-    width:80%;
-    margin-left:auto;
-    margin-right:auto;
-  }
-}
-@media(max-width: 992px)  {
-  .page_head .wrap .wrap_float .slider-1 .slides .info h2{
-     
-     font-size: 1.8em;
-     line-height: 30px;
-      
-  }
-  .page_head .wrap .wrap_float .slider-1 .slides .info p{
-     
-    font-size: 0.9em;
-    line-height: 20px;
-    
- }
- 
-} 
-
-@media(max-width: 600px)  {
-  .page_head .wrap .wrap_float .slider-1 .slides .info h2{
-     
-     font-size: 1.8em;
-     line-height: 25px;
-      
-  }
-  .page_head .wrap .wrap_float .slider-1 .slides .info p{
-     
-    font-size: 0.9em;
-    line-height: 20px;
-     
- }
- 
-}
-@media(max-width: 515px)  {
-  .page_head .wrap .wrap_float .slider-1 .slides .info h2{
-     
-     font-size: 1.3em;
-     line-height: 25px;
-      
-  }
-  .page_head .wrap .wrap_float .slider-1 .slides .info p{
-     
-    font-size: 0.9em;
-    line-height: 15px;
-     
- }
-
-
-}  
-@media(max-width: 394px)  {
-  .page_head .wrap .wrap_float .slider-1 .slides .info h2{
-     
-     font-size: 1em;
-     line-height: 15px;
-      
-  }
-  .page_head .wrap .wrap_float .slider-1 .slides .info p{
-     
-    font-size: 0.9em;
-    line-height: 12px;
-     
- }
- .page_head .wrap .wrap_float .slider-1 .slides img{
-     
-  padding-left: 0px;
-}
-.header__bottom .text-logo{
-  text-align: center;
-}
-
- 
-}  
-@media(max-width: 394px)  {
-  .page_head .wrap .wrap_float .slider-1 .navigation-visibility .slide-icon{
-     display:none;
-  }
- 
-}  
-/* for about slider*/
- .about-page .content-head .wrap .wrap_float .main .slider-1{
-  position: relative;
-  background: #000116;
-  width: 800px;
-  min-height: 500px;
-  /* margin: 20px; */
-  overflow: hidden;
-  border-radius: 10px;
-}
-
- .about-page .content-head .wrap .wrap_float .main .slider-1 .slides{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  /* clip-path: circle(0% at 0 50%); */
-  clip-path: polygon(0 0, 0 0, 0% 99%, 0 100%);
-  
-}
- .about-page .content-head .wrap .wrap_float .main .slider-1 .slides.active{
-  /* clip-path: circle(150% at 0 50%); */
-  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
-  transition: 2s;
-}
- .about-page .content-head .wrap .wrap_float .main .slider-1 .slides img{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-
-}
- .about-page .content-head .wrap .wrap_float .main .slider-1  .info{
-  position: absolute;
-  color: black;
-  width: 75%;
-  background: rgba(255,255,255,0.7);
-  margin-top: 320px;
-  margin-left: 50px;
-  padding:20px;
-  border-radius: 5px;
-  box-shadow: 0 5px 25px rgb(1 1 1 / 5%);  
-}
- .about-page .content-head .wrap .wrap_float .main .slider-1  .info h2{
-  font-size: 2em;
-  font-weight: 800;   
-}
- .about-page .content-head .wrap .wrap_float .main .slider-1 .slides .info p{
-  font-size: 1em;
-  font-weight: 400;   
-}
- .about-page .content-head .wrap .wrap_float .main .slider-1  .navigation{
-  height: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  opacity:0;
-  transition: opacity 0.5s ease;
-  
-}
- .about-page .content-head .wrap .wrap_float .main .slider-1:hover  .navigation{
-  opacity:1;
-  
-}
- .about-page .content-head .wrap .wrap_float .main .slider-1 .navigation-visibility{
-  z-index:999;
-  display: flex;
-  justify-content: center;
-
-}
- .about-page .content-head .wrap .wrap_float .main .slider-1 .navigation-visibility .slide-icon{
-  z-index:999;
-  background: rgba(255, 255, 255, 0.5);
-  width: 20px;
-  height: 10px;
-  transform:translateY(-50px);
-  margin: 0 6px;
-  border-radius:2px;
-  box-shadow: 0 5px 25px rgb(1 1 1 / 20%)
-}
- .about-page .content-head .wrap .wrap_float .main .slider-1  .prev-btn{
- z-index: 999;
- font-size: 2em;
- color: black;
- background: rgba(255, 255, 255, 0.8);
- padding: 10px;
- cursor: pointer;
- border-top-right-radius: 3px;
- border-bottom-right-radius: 3px;
-}
- .about-page .content-head .wrap .wrap_float .main .slider-1  .next-btn{
-  z-index: 999;
- font-size: 2em;
- color:#222;
- background: rgba(255, 255, 255, 0.8);
- padding: 10px;
- cursor: pointer;
- border-top-left-radius: 3px;
- border-bottom-left-radius: 3px;
-}
-
- .about-page .content-head .wrap .wrap_float .main .slider-1 .navigation-visibility .slide-icon.active{
-  background: blue;
-}
-@media(max-width: 900px)  {
-   .about-page .content-head .wrap .wrap_float .main .slider-1{
-     
-      width: 100%;
-      
-  }
-   .about-page .content-head .wrap .wrap_float .main .slider-1 .slides .info{
-    position:relative;
-    width:80%;
-    margin-left:auto;
-    margin-right:auto;
-  }
-}
-@media(max-width: 992px)  {
-   .about-page .content-head .wrap .wrap_float .main .slider-1 .slides .info h2{
-     
-     font-size: 1.8em;
-     line-height: 30px;
-      
-  }
-   .about-page .content-head .wrap .wrap_float .main .slider-1 .slides .info p{
-     
-    font-size: 0.9em;
-    line-height: 20px;
-    
- }
- 
-} 
-
-@media(max-width: 600px)  {
-   .about-page .content-head .wrap .wrap_float .main .slider-1 .slides .info h2{
-     
-     font-size: 1.8em;
-     line-height: 25px;
-      
-  }
-   .about-page .content-head .wrap .wrap_float .main .slider-1 .slides .info p{
-     
-    font-size: 0.9em;
-    line-height: 20px;
-     
- }
- 
-}
-@media(max-width: 515px)  {
-   .about-page .content-head .wrap .wrap_float .main .slider-1 .slides .info h2{
-     
-     font-size: 1.3em;
-     line-height: 25px;
-      
-  }
-   .about-page .content-head .wrap .wrap_float .main .slider-1 .slides .info p{
-     
-    font-size: 0.9em;
-    line-height: 15px;
-     
- }
- .about-page .content-head .wrap .wrap_float .main .slider-1 {
-  margin-top: 1000px;
-  
-}
-
-}  
-@media(max-width: 394px)  {
-   .about-page .content-head .wrap .wrap_float .main .slider-1 .slides .info h2{
-     
-     font-size: 1em;
-     line-height: 15px;
-      
-  }
-   .about-page .content-head .wrap .wrap_float .main .slider-1 .slides .info p{
-     
-    font-size: 0.9em;
-    line-height: 12px;
-     
- }
-  .about-page .content-head .wrap .wrap_float .main .slider-1 .slides img{
-  
-  padding-left: 0px;
-}
- .about-page .content-head .wrap .wrap_float .main .header__bottom .text-logo{
-  text-align: center;
-}
-
- 
-}  
-@media(max-width: 394px)  {
-   .about-page .content-head .wrap .wrap_float .main .slider-1 .navigation-visibility .main .slide-icon{
-     display:none;
-  }
- 
-}  
-.map_img{
-  width:100%;
-  height:100%;
 }
