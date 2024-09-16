@@ -4,7 +4,7 @@
     command: cp
     source: ./images/
     destination: s3://indiacarz-public/indiacarz-website-in-progress/
-    aws_access_key_id: ${{ AKIAX42EI2DIB7UNLB47 }}
-    aws_secret_access_key: ${{ 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 }}
+    aws_access_key_id: ${{  }}
+    aws_secret_access_key: ${{  }}
     aws_region: ap-south-1
     flags: --recursive
